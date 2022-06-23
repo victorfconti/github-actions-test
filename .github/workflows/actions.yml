@@ -11,7 +11,7 @@ jobs:
           pwd
           ls
       - name: Checkout
-        uses: actions/checkout
+        uses: actions/checkout@v1
       - name: Simple JS Action
         id: greet
         uses: actions/hello-world-javascript-action@v1
